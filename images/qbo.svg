@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a2b"/>
+      <stop offset="1" stop-color="#020811"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b9fbff"/>
+      <stop offset="1" stop-color="#38d9f2"/>
+    </linearGradient>
+    <linearGradient id="left" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#20c9e8"/>
+      <stop offset="1" stop-color="#087eae"/>
+    </linearGradient>
+    <linearGradient id="right" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#087eae"/>
+      <stop offset="1" stop-color="#06416d"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="22" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" rx="120" fill="url(#bg)"/>
+  <circle cx="512" cy="455" r="300" fill="#00c9ef" opacity=".10" filter="url(#glow)"/>
+  <g fill="none" stroke="#42dff5" opacity=".18">
+    <path d="M130 760H894M190 810H834M250 860H774"/>
+    <path d="M512 110V900" stroke-dasharray="5 22"/>
+  </g>
+  <ellipse cx="512" cy="790" rx="245" ry="48" fill="#00c9ef" opacity=".17" filter="url(#glow)"/>
+  <g stroke="#bafaff" stroke-width="9" stroke-linejoin="round">
+    <path d="M512 190 790 345 512 505 234 345Z" fill="url(#top)"/>
+    <path d="M234 345 512 505V820L234 660Z" fill="url(#left)"/>
+    <path d="M790 345 512 505V820L790 660Z" fill="url(#right)"/>
+  </g>
+  <g fill="#06233b">
+    <ellipse cx="435" cy="390" rx="22" ry="32"/>
+    <ellipse cx="585" cy="390" rx="22" ry="32"/>
+  </g>
+  <g fill="#eaffff">
+    <circle cx="442" cy="379" r="7"/>
+    <circle cx="592" cy="379" r="7"/>
+  </g>
+  <path d="M468 438Q512 475 556 438" fill="none" stroke="#063653" stroke-width="12" stroke-linecap="round"/>
+  <path d="M512 505V820" stroke="#bafaff" stroke-width="5" opacity=".55"/>
+  <path d="M234 345 512 505 790 345" fill="none" stroke="#e5ffff" stroke-width="5" opacity=".6"/>
+  <text x="512" y="930" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="800" letter-spacing="18" fill="#bafaff">QBO</text>
+</svg>
