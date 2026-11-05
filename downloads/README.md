@@ -1,5 +1,5 @@
 # Downloads
 
-Acá van los archivos preparados para que Thiago los descargue.
+Acá van los archivos preparados para descargar.
 
 Revisá esta carpeta después de pedir un archivo en el chat.
