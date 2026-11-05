@@ -1,11 +1,11 @@
 # ChatBridge
 
-Espacio de intercambio de archivos entre Thiago y ChatGPT mediante GitHub.
+Espacio de intercambio de archivos mediante GitHub.
 
 ## Carpetas
 
-- `uploads/`: archivos que Thiago comparte para que ChatGPT los revise.
-- `downloads/`: archivos preparados por ChatGPT para que Thiago los descargue.
+- `uploads/`: archivos compartidos para que ChatGPT los revise.
+- `downloads/`: archivos preparados por ChatGPT para descargar.
 - `images/`: capturas e imágenes de referencia.
 
 ## Cómo usarlo
